@@ -1,43 +1,12 @@
-[{
+[
+	{
 		"deepLinkUrl": "A",
 		"severity": "CRITICAL",
-		"triggeredEntityDefinition": {
-			"entityType": "POLICY",
-			"name": "JVM Heap utilization is too high",
-			"entityId": 9109
-		},
 		"startTimeInMillis": 1584375655000,
 		"detectedTimeInMillis": 0,
 		"endTimeInMillis": 1584403195000,
 		"name": "A",
 		"description": "A",
-		"id": 1863423,
-		"affectedEntityDefinition": {
-			"entityType": "A",
-			"name": "A",
-			"entityId": 1379362
-		},
 		"incidentStatus": "CANCELLED"
-	},
-	{
-		"deepLinkUrl": "A",
-		"severity": "CRITICAL",
-		"triggeredEntityDefinition": {
-			"entityType": "POLICY",
-			"name": "JVM Heap utilization is too high",
-			"entityId": 9109
-		},
-		"startTimeInMillis": 1584378595000,
-		"detectedTimeInMillis": 0,
-		"endTimeInMillis": 1584420655000,
-		"name": "JVM Heap utilization is too high",
-		"description": "A",
-		"id": 1864745,
-		"affectedEntityDefinition": {
-			"entityType": "APPLICATION_COMPONENT_NODE",
-			"name": "A",
-			"entityId": 837243
-		},
-		"incidentStatus": "RESOLVED"
 	}
 ]
