@@ -1,6 +1,6 @@
 [
   {
-  "deepLinkUrl": "https://xyz.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=1863423&application=1200",
+  "deepLinkUrl": "A",
   "severity": "CRITICAL",
   "triggeredEntityDefinition":     {
     "entityType": "POLICY",
@@ -10,18 +10,18 @@
   "startTimeInMillis": 1584375655000,
   "detectedTimeInMillis": 0,
   "endTimeInMillis": 1584403195000,
-  "name": "JVM Heap utilization is too high",
-  "description": "AppDynamics has detected a problem with Node <b>mediadataservice-appd-ue1c-565bc88856-tl5dz<\/b>.<br><b>JVM Heap utilization is too high<\/b> continues to violate with <b>critical<\/b>.<br>All of the following conditions were found to be violating<br>For Node <b>mediadataservice-appd-ue1c-565bc88856-tl5dz<\/b>:<br>1) JVM|Memory:Heap|Used % Condition<br><b>Used %'s<\/b> value  was <b>greater than<\/b> the threshold <b>90.00<\/b> for <b>7<\/b> times in the last <b>30<\/b> minutes.<br>",
+  "name": "A",
+  "description": "A",
   "id": 1863423,
   "affectedEntityDefinition":     {
-    "entityType": "APPLICATION_COMPONENT_NODE",
-    "name": "mediadataservice-appd-ue1c-565bc88856-tl5dz",
+    "entityType": "A",
+    "name": "A",
     "entityId": 1379362
   },
   "incidentStatus": "CANCELLED"
 },
   {
-  "deepLinkUrl": "https://xyz.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=1864745&application=1200",
+  "deepLinkUrl": "A",
   "severity": "CRITICAL",
   "triggeredEntityDefinition":     {
     "entityType": "POLICY",
@@ -32,11 +32,11 @@
   "detectedTimeInMillis": 0,
   "endTimeInMillis": 1584420655000,
   "name": "JVM Heap utilization is too high",
-  "description": "AppDynamics has detected a problem with Node <b>mappingservice-appd-ue1b-6b9bc4dfdd-rfktd<\/b>.<br><b>JVM Heap utilization is too high<\/b> continues to violate with <b>critical<\/b>.<br>All of the following conditions were found to be violating<br>For Node <b>mappingservice-appd-ue1b-6b9bc4dfdd-rfktd<\/b>:<br>1) JVM|Memory:Heap|Used % Condition<br><b>Used %'s<\/b> value  was <b>greater than<\/b> the threshold <b>90.00<\/b> for <b>6<\/b> times in the last <b>30<\/b> minutes.<br>",
+  "description": "A",
   "id": 1864745,
   "affectedEntityDefinition":     {
     "entityType": "APPLICATION_COMPONENT_NODE",
-    "name": "mappingservice-appd-ue1b-6b9bc4dfdd-rfktd",
+    "name": "A",
     "entityId": 837243
   },
   "incidentStatus": "RESOLVED"
