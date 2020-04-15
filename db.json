@@ -1,13 +1,21 @@
-{
-	"alert": 
-	{
-		"deepLinkUrl": "A",
-		"severity": "CRITICAL",
-		"startTimeInMillis": 1584375655000,
-		"detectedTimeInMillis": 0,
-		"endTimeInMillis": 1584403195000,
-		"name": "A",
-		"description": "A",
-		"incidentStatus": "CANCELLED"
-	}
-}
+[{
+	"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12940614&application=7442",
+	"severity": "WARNING",
+	"triggeredEntityDefinition": {
+		"entityType": "POLICY",
+		"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+		"entityId": 36203
+	},
+	"startTimeInMillis": 1580813755000,
+	"detectedTimeInMillis": 0,
+	"endTimeInMillis": 1580814715004,
+	"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+	"description": "AppDynamics has detected a problem with Application <b>de-Production<\/b>.<br><b>*Error Rate at 1.0% or higher, 03% is the normal<\/b> downgraded in severity and is now <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Higher than usual error rate<br><b>Higher than usual error rate's<\/b> value <b>0.90<\/b> was <b>greater than<\/b> the threshold <b>0.70<\/b> for the last <b>10<\/b> minutes<br>",
+	"id": 12940614,
+	"affectedEntityDefinition": {
+		"entityType": "APPLICATION",
+		"name": "de-Production",
+		"entityId": 7442
+	},
+	"incidentStatus": "RESOLVED"
+}]
